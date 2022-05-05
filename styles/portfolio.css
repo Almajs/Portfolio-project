@@ -1,0 +1,8 @@
+.hero {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
