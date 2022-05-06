@@ -1,3 +1,10 @@
+body {
+  font-family: var(--default-font-family);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
 :root {
   --branding-color: #6c63ff;
   --secondary-color: #f9f7fe;
@@ -21,6 +28,13 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
 }
+
+h2 {
+  font-size: 64px;
+}
+.container {
+  width: 100%;
+}
 .hero {
   background: var(--secondary-color);
   text-align: center;
@@ -33,11 +47,15 @@ h1 {
   color: #272142;
 }
 p {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 30px;
   display: block;
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+  margin-bottom: 3rem !important;
 }
 .btn-branding {
   background: var(--branding-color);
@@ -56,6 +74,18 @@ p {
   line-height: 27px;
   padding: 15px 30px;
 }
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 2px;
+}
 .row {
   display: flex;
+  flex-wrap: wrap;
+}
+
+.project-description {
+  padding: 120px 60px;
 }
