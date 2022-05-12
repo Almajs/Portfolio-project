@@ -25,6 +25,10 @@ h1 {
 h2 {
   font-size: 58px;
 }
+
+h4 {
+  font-size: 48px;
+}
 .container {
   width: 100%;
 }
@@ -120,6 +124,14 @@ p {
   h2 {
     font-size: 42px;
   }
+
+  h4 {
+    font-size: 26px;
+  }
+
+  .btn {
+    font-size: 18px;
+  }
   .hero {
     padding: 80px 20px;
   }
@@ -135,6 +147,9 @@ p {
 
   nav a {
     font-size: 14px;
+  }
+  footer .contact-box {
+    padding: 30px;
   }
 }
 
@@ -166,4 +181,47 @@ nav a {
 nav a:hover,
 nav li.active a {
   color: var(--branding-color);
+}
+
+footer {
+  margin: 60px;
+}
+
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-align: center;
+  display: block;
+  font-size: 24px;
+  line-height: 36px;
+  color: black;
+  text-decoration: none;
+}
+
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  padding: 10px 14px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 21px;
+  color: var(--branding-color);
+  background-color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+  border-radius: 15px;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
 }
